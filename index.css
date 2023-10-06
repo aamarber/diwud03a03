@@ -1,0 +1,18 @@
+:root{
+    --back-color: #948392;
+    --login-back-color: #849483;
+    --buttons-color: #E08D79;
+}
+
+body{
+    background-color: var(--back-color);
+}
+
+#loginForm{
+    background-color: var(--login-back-color);
+}
+
+.btn-primary{
+    background-color: var(--buttons-color);
+    border-color: var(--buttons-color);
+}
